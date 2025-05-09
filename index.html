@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lebron James</title>
+  <meta charset="UTF-8">
+  <title>LeBron James Fan Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #552583;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #FDB927;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .images img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .attribution {
+      font-size: 0.8em;
+      margin-top: 5px;
+      color: gray;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #552583;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3e2e67;
+    }
+  </style>
 </head>
+
 <body>
-    
+  <header>
+    <h1>LeBron James Fan Page</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Career</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="container">
+    <h2>About LeBron</h2>
+    <p>
+      LeBron James is a professional basketball player widely considered one of the greatest in the sport's history.
+      Known for his strength, vision, and basketball IQ, LeBron has played for the Cleveland Cavaliers, Miami Heat,
+      and Los Angeles Lakers. His impact goes beyond the court, with philanthropy and activism as central parts of his legacy.
+    </p>
+    <div class="images">
+      <div>
+        <img src="Lebronuniform.jpg" alt="LeBron in Lakers uniform">
+        <div class="attribution">Image: Wikimedia Commons</div>
+      </div>
+      <div>
+        <img src="Lebrondunk.jpg" alt="LeBron dunking">
+        <div class="attribution">Image: Wikimedia Commons</div>
+      </div>
+      <div>
+        <img src="Lebroncloseup.jpg" alt="LeBron James close-up">
+        <div class="attribution">Image: Wikimedia Commons</div>
+      </div>
+    </div>
+    <button onclick="alert('LeBron is the GOAT!!!')">Click to Celebrate LeBron</button>
+  </div>
+
 </body>
 </html>
